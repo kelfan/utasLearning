@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE materialsList [
+<!ELEMENT materialsList (materials)+>
+<!ELEMENT materials ((description)*, (type)?, (quantity)+, (projectCommenced)?)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT projectCommenced EMPTY >
+<!ATTLIST description project (governmentProject|charitableProject|privateProject) "privateProject"> 
+]>
+
+<!-- replace this comment with XML code, removing the comment tags -->
+

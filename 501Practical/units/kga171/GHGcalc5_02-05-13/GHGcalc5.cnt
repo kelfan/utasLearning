@@ -1,0 +1,20 @@
+:Base GHGcalc5.hlp
+:Title GHGcalc5
+:Index dummy=dummy.hlp ;(This is necessary when using KLinks - because of a bug in the help
+:Link dummy.hlp        ; compiler. Without this only the first keyword would be looked up!)
+1 Overview=SHM_contents0001@GHGcalc5.hlp
+1 Calculations=SHM_contents0002@GHGcalc5.hlp
+1 Data entry=SHM_contents0003@GHGcalc5.hlp
+1 Results=SHM_contents0004@GHGcalc5.hlp
+1 Layout=SHM_contents0005@GHGcalc5.hlp
+1 Air and sea travel=SHM_contents0006@GHGcalc5.hlp
+1 Private transport=SHM_contents0007@GHGcalc5.hlp
+1 Public transport=SHM_contents0008@GHGcalc5.hlp
+1 Electricity=SHM_contents0009@GHGcalc5.hlp
+1 Other fuels=SHM_contents0010@GHGcalc5.hlp
+1 Food/groceries=SHM_contents0011@GHGcalc5.hlp
+1 Waste=SHM_contents0012@GHGcalc5.hlp
+1 Water=SHM_contents0013@GHGcalc5.hlp
+1 Housing=SHM_contents0014@GHGcalc5.hlp
+1 Possessions=SHM_contents0015@GHGcalc5.hlp
+1 References=SHM_contents0016@GHGcalc5.hlp

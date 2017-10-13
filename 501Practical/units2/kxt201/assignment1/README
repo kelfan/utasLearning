@@ -1,0 +1,32 @@
+ASSIGNMENT 1 INFORMATION
+------------------------
+
+This directory contains test files and information relating to the assignment. 
+
+The file input1 is the input file for Test 1, and the file output1 is the file containing the output that should be produced when your program is given input1 as its input.
+
+The file input3 is the input file for Test 3, and the file output3 is the file containing the output that should be produced when your program is given input3 as its input.
+
+You should consider working through these cases, keeping track of what should be in the database at each point, to check that you see why the output files contain what they do.
+
+NOTE: These files are provided as an illustration of correctly
+formatted input and output. They are not a thorough test of the
+operations involved, for which you will have to make up your own test data. For example, Tests 1 and 2 use the same operations, but are different, with Test 2 being more thorough, having more print operations and many more addition and removal operations, with some of the additions occurring after some of the removals, (in a legitimate sequence, e.g. it never attempts to remove a student not currently in the database).
+
+Note on testing procedure:
+-------------------------
+
+Test 1 will be conducted as below:
+./a.out < input1 > tmp1
+diff tmp1 output1
+
+If your program completes without crashing within the time allowed for the test and the diff command produces no output (i.e. there is no difference between your program's output and the output required), then your program passes the test. 
+
+If your program does not complete within the time allowed, or does crash, then it fails the test. If the diff command produces any output, then your program fails the test.
+
+The other tests will be conducted in a similar manner, with the
+corresponding test files.
+
+Note: The marker will limit the CPU time that your program is allowed to spend on a test. The time allowed will be at least 10 times that of a straightforward solution. The limit is imposed so that the marker doesn't have to wait for ever when a program enters an endless loop, or an excessively long time when your program does not meet the O() time requirements.
+
+            

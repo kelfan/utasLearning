@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- replace this comment with a DTD -->
+
+<versesofpoem poet="Spike Milligan">
+	<title>Have A Nice Day</title>
+	<verses topic="swimBetweenTheFlags">
+		<line number="first">'Help, help,' said a man. 'I'm drowning.'</line>
+		<line>'Hang on,' said a man from the shore.</line>
+		<line>'Help, help,' said the man. 'I'm not clowning.'</line>
+		<line>'Yes, I know, I heard you before.</line>
+	</verses>
+	<verses topic="patientsAreAVirtue">
+		<line number="first">'Be patient dear man who is drowning, </line>
+		<line>'You, see I've got a disease.</line>
+		<line>'I'm waiting for a Doctor J. Browning,</line>	
+		<line>'So do be patient please.'</line>
+	</verses>
+	<verses topic="firstAid">
+		<line number="first">'How long,' said the man who was drowning,</line>
+		<line>'Will it take for the Doc to arrive?'</line>
+		<line>'Not very long,' said the man with the disease,</line>
+		<line>'Till then try staying alive.'</line>
+	</verses>
+	<verses topic="mightyPen">
+		<line number="first">'Very well,' said the man who was drowning,</line>
+		<line>'I'll try and stay afloat,</line>
+		<line>'By reciting the poems of Browning</line>
+		<line>'And other things he wrote.'</line>
+	</verses>
+	<verses topic="keepingYourHead">
+		<line type="oneline">'Help, help, ' said the man with the disease,</line>
+	</verses>
+	<verses topic="tragedy">
+		<line number="first">'Oh dear,' said the man with the awful disease,</line>
+		<line>'I think I'm going to die.'</line>
+		<line>'Farewell,' said the man who was drowning.</line>
+		<line>Said the man with the disease, 'Goodbye.'</line>
+	</verses>
+</versesofpoem>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE santasList [
+<!ELEMENT santasList (child)+>
+<!ELEMENT child ((favouriteColour)?,(favouriteToy)*,(letterReceived)?)>
+<!ELEMENT favouriteColour (#PCDATA)>
+<!ELEMENT favouriteToy (#PCDATA)>
+<!ELEMENT letterReceived EMPTY>
+<!ATTLIST child name CDATA #REQUIRED
+ age CDATA #IMPLIED
+ behaviour (naughty|nice) "nice"> 
+]>
+
+<santasList>
+  <child>
+    <favouriteColour>blue</favouriteColour>
+    <favouriteToy>pokemon</favouriteToy>
+    <letterReceived/>
+    <name>corey</name>
+    <age>20</age> 
+    <behaviour>nice</behaviour>
+  </child>
+</santasList>
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE planet [
+  <!ELEMENT planet (country*)>
+  <!ELEMENT country (name, pop)>
+  <!ELEMENT name    (#PCDATA)>
+  <!ELEMENT pop     (#PCDATA)>     ]>
+  	
+<planet>
+</planet>
+<planet>
+  <country> 
+    <name>France</name> <pop>60.7</pop>
+  </country>
+  <country>
+  	<name>Ireland</name>
+  </country>
+  <country>
+    <name>Brazil</name> <bop>184.2</bop>
+  </country>
+</planet>
+
+
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE Person [ 
+<!ELEMENT Person ((Mr|Ms)?, FirstName, MiddleName, LastName)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT Mr EMPTY>
+<!ELEMENT Ms EMPTY>
+] >
+
+<Person> 
+<Ms/> <FirstName>Nicole</FirstName>
+<LastName>Herbert</LastName>
+</Person>
+
+
+
+
+

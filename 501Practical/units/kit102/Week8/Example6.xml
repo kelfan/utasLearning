@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE message [ 
+<!ELEMENT message(to, from, (topic)+)> 
+<!ELEMENT to (#PCDATA)> 
+<!ATTLIST to category CDATA ""> 
+<!ELEMENT from (#PCDATA)> 
+<!ELEMENT topic (text)> 
+<!ATTLIST topic keyword (lectures|tutorials|meetings) "lectures"> 
+<!ELEMENT text (#PCDATA)> 
+<!ENTITY unit "KXT104 Data Management"> 
+] >
+
+<message> 
+	<to category="colleague">Nicole</to> 
+	<from>Robyn</from> 
+	<topic keyword="lectures"> 
+		<text>Here are the lecture slides for this week for &unit;</text> 
+	</topic> 
+	<topic keyword="meetings"> 
+		<text>Can we change our meeting day to Monday?</text> 
+	</topic> 
+</message>
+
+
+
+
+

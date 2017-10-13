@@ -1,0 +1,33 @@
+Readme file for GHGcalc5 Calculator.
+
+The normal (Freeware) disclaimer applies; the user accepts responsibility for the use of the program, we take no responsibility for damage to your system during its use. As this works as a stand-alone program, no changes are made to your registry.
+
+
+To operate correctly, all these files should reside in the same folder/drawer/sub-directory:
+
+	GHGcalc5.exe	The program.
+	GHGcalc5.chm	The compiled HTML help file (default help file format).
+	GHGcalc5.hlp	The WinHelp file (alternate help file format, no longer updated).
+	GHGcalc5.cnt	The WinHelp contents file.
+		(If the above are not in the same folder, the program will be unable to locate the Help file)
+		
+	Please read.txt	This file (not required for correct operation of the program).
+
+
+To use GHGcalc; double-click GHGcalc5.exe
+
+
+Data entry boxes have hints attached (on cursor pause), to provide information on what data is required. For further information go to the Help menu at top left of screen.
+
+To Exit; either click "Exit" in the drop-down "File" menu at top left, or click the close (X) icon in top right corner of screen.
+
+
+Though newer versions of Windows no longer using WinHelp, GHGcalc still gives the option of viewing in that format. However (though included) the WinHelp file is no longer being updated and may not contain complete documentation on this version of GHGcalc.
+
+GHGcalc is designed to fill a screen at a resolution of 1024 x 768, but should still work in lower resolutions (though scrolling is required). It was programmed in Delphi6 on Windows XP, but should run OK on other Windows OS' (W98 and above).
+
+Though the program does run under Vista, you may find the program help file does not, due to the security aspects of the Vista OS. A solution that has been found to work is to: save the downloaded GHGcalc folder to a USB memory stick and either run it from there, or save back to your hard-drive. The program should then be able to find the location of the helpfiles.
+
+
+Printing of results is very basic (see Results, in the Help file).
+Alternatively use Alt + PrintScreen to save the screen to clipboard, then Paste into a graphics-program (eg. MS Paint), or word-processor (eg. Word). Print using its options.
