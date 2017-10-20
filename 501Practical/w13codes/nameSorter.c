@@ -37,7 +37,9 @@ char names[100000];
 int howmany;
 char *list[5001];
 
+// * is means anything
 void createnames() {
+    // char first name can be anything in the {}
 	char *first[FIRST]={"Bill","William","Jack","Jill","Ali",
 			    "Lisa","Charles","Anne","Anna","Kylie",
 			    "Malissa","Jenny","Julian","Nicole","Anglique",
